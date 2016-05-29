@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/basket"
+    >
+
+    <Button
+        android:layout_width="350dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:background="@color/Charde"
+        android:text="Place Order"
+        android:textSize="20sp"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:background="@color/Charde"
+        android:text="Quick Order"
+        android:textSize="20sp"
+
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:background="@color/Charde"
+        android:text="Weekly Order"
+        android:textSize="20sp"
+        android:id="@+id/button3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="350dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:background="@color/Charde"
+        android:text="Track Order"
+        android:textSize="20sp"
+        android:id="@+id/button4"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
