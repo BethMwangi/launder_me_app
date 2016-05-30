@@ -18,10 +18,9 @@
         android:text="Launder Me"
         android:textColor="#25303C"
         android:textAllCaps="true"
-        android:textSize="90sp"
+        android:textSize="80sp"
         android:textAlignment="center"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
